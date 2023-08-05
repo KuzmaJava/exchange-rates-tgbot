@@ -25,7 +25,7 @@ public class ExchangeRateServiceImpl implements ExchangeRatesService {
     public String getExchangeRate(String currency) throws ServiceException, XPathExpressionException {
         var xmlOptional = client.getCurrencyRatesXML();
         String xml = xmlOptional.orElseThrow(
-                () -> new ServiceException("Не удалось получить XML")
+                () -> new ServiceException("Can't get XML.")
         );
         return extractCurrencyValueFromXML(xml, CURRENCY_XPATH.replace("?", currency));
     }
