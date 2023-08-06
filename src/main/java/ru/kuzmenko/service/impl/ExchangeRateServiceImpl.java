@@ -8,7 +8,6 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
-import ru.kuzmenko.bot.ExchangeRatesBot;
 import ru.kuzmenko.client.ExchangeRatesClient;
 import ru.kuzmenko.exception.ServiceException;
 import ru.kuzmenko.service.ExchangeRatesService;
