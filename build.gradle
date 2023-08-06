@@ -17,6 +17,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-cache'
     implementation group: 'org.telegram', name: 'telegrambots', version: '6.5.0'
     implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.11.0'
+    implementation 'org.springframework.boot:spring-boot-starter-cache'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
